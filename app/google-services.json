@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "183545904678",
+    "firebase_url": "https://breath-e4842.firebaseio.com",
+    "project_id": "breath-e4842",
+    "storage_bucket": "breath-e4842.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183545904678:android:18ec3b660d7d6530ecb0e7",
+        "android_client_info": {
+          "package_name": "com.amithkk.breathsampler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183545904678-pikmmtjvculli2m8uignlt4br77n3hja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amithkk.breathsampler",
+            "certificate_hash": "96b830892d82cc45c7a7445e091faeaeade92595"
+          }
+        },
+        {
+          "client_id": "183545904678-aoid0redhdkni7olm5o658lcgi9uicfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAQBa1NNxq2bWrOEfKb4JF9DjjE5AhkWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183545904678-aoid0redhdkni7olm5o658lcgi9uicfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

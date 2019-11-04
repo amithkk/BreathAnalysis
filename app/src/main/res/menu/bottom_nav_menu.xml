@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_health"
+        android:icon="@drawable/ic_health"
+        android:title="My Health" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_history"
+        android:title="History" />
+
+    <item
+        android:id="@+id/navigation_new"
+        android:icon="@drawable/ic_new"
+        android:title="What's New" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile" />
+
+
+</menu>

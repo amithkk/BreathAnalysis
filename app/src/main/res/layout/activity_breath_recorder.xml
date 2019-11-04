@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreathRecorderActivity">
+
+    <com.ramijemli.percentagechartview.PercentageChartView
+        android:id="@+id/percentageChartView2"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"
+        app:pcv_animDuration="400"
+        app:pcv_animInterpolator="linear"
+        app:pcv_mode="ring"
+        app:pcv_orientation="clockwise"
+        app:pcv_progress="0"
+        app:pcv_progressColor="#7E57C2"
+        app:pcv_startAngle="90">
+
+    </com.ramijemli.percentagechartview.PercentageChartView>
+
+    <ImageView
+        android:id="@+id/centerDrawable"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/percentageChartView2"
+        app:layout_constraintEnd_toEndOf="@+id/percentageChartView2"
+        app:layout_constraintStart_toStartOf="@+id/percentageChartView2"
+        app:layout_constraintTop_toTopOf="@+id/percentageChartView2"
+        app:srcCompat="@drawable/ic_mic" />
+
+
+    <TextView
+        android:id="@+id/modeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Recording Breath"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/remainingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="10s"
+        android:textSize="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintStart_toStartOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Remaining"
+        app:layout_constraintBottom_toTopOf="@+id/quitRecordingBtn"
+        app:layout_constraintEnd_toEndOf="@+id/quitRecordingBtn"
+        app:layout_constraintStart_toStartOf="@+id/quitRecordingBtn" />
+
+    <Button
+        android:id="@+id/quitRecordingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Quit Recording"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
